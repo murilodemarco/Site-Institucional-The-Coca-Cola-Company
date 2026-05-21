@@ -59,7 +59,7 @@ fieldset{
     transition: 1s all;
     cursor: pointer;
     background:  #380707f3;
-    margin-left: 350px;
+    margin-left: 260px;
 }
 
 .enviar:hover{
@@ -73,4 +73,98 @@ fieldset{
 }
 .divRetorno p{
     font-size: 24px;
+}
+
+@media screen and (max-width:320px){
+
+    .contatos-titulo{
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    form{
+        margin-left: 0px;
+    }
+    form label {
+        font-size: 16px;
+    }
+    
+    fieldset {
+        width: 90%;
+        margin: 0px;
+    }
+    
+    .input-padrao{
+        padding: 0px;
+    }
+    .enviar {
+        margin-left:98px;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px){
+
+    .contatos-titulo{
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    form{
+        margin-left: 0px;
+    }
+    form label {
+        font-size: 16px;
+    }
+    
+    fieldset {
+        width: 90%;
+        margin: 0px;
+    }
+    
+    .input-padrao{
+        padding: 0px;
+    }
+    .enviar {
+        margin-left:123px;
+    }
+}
+
+@media (min-width:376px) and (max-width:425px){
+
+    .contatos-titulo{
+        font-size: 20px;
+        margin-left: -25px;
+    }
+    form{
+        margin-left: 0px;
+    }
+    form label {
+        font-size: 16px;
+    }
+    
+    fieldset {
+        width: 90%;
+        margin: 0px;
+    }
+    
+    .input-padrao{
+        padding: 0px;
+    }
+    .enviar {
+        margin-left:135px;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px){
+
+ 
+    .enviar {
+        margin-left:135px;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+ 
+    .enviar {
+        margin-left:180px;
+    }
 }

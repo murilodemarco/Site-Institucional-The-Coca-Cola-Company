@@ -170,7 +170,7 @@ footer{
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 374px) {
 
     /*Responsividade Header */
      nav {
@@ -205,7 +205,7 @@ footer{
 
      /*Responsividade Localização*/
      .localizacao iframe {
-        width:325px ;
+        width:300px ;
        height:250px ;
      }
 
@@ -220,10 +220,13 @@ footer{
      .nossas_marcas_lista{
         margin-left: -45px;
      }
+     .nossas_marcas_sobre img {
+        width: 50%;
+     }
 
       /*Responsividade Video*/ 
      .video iframe {
-       width:325px ;
+       width:300px ;
        height:250px ;
         
      }
@@ -237,6 +240,251 @@ footer{
      }
 
 }
+
+@media (min-width:375px) and (max-width: 425px) {
+
+    /*Responsividade Header */
+     nav {
+        font-size: 15px;
+        
+     }       
+     .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+     }
+
+    /*Responsividade Sobre nos */
+     .sobre_nos {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin-left: 0;
+        
+     }
+     .img_sobre_nos{
+        width: 90%;
+        margin-right: 0;
+     }
+     .texto_sobre_nos {
+        font-size: 13px;
+        margin-left: 15px;
+        margin-right: 15px;
+     }
+
+     /*Responsividade Localização*/
+     .localizacao iframe {
+        width:350px ;
+       height:300px ;
+     }
+
+
+     /*Responsividade Nossas Marcas*/
+
+     .nossas_marcas_sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+     }
+     .nossas_marcas_lista{
+        margin-left: -45px;
+     }
+     .nossas_marcas_sobre img {
+        width: 50%;
+     }
+
+      /*Responsividade Video*/ 
+     .video iframe {
+       width:350px ;
+       height:300px ;
+        
+     }
+
+     /*Responsividade Footer */
+     footer  {
+         background-size: contain;
+     }
+     .rodape_contato{
+        margin-top: 60px;
+     }
+
+}
+
+
+
+
+@media (min-width:426px) and (max-width: 767px) {
+
+    /*Responsividade Header */
+     nav {
+        font-size: 15px;
+        
+     }       
+     .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+     }
+
+    /*Responsividade Sobre nos */
+     .sobre_nos {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin-left: 0;
+        
+     }
+     .img_sobre_nos{
+        width: 90%;
+        margin-right: 0;
+     }
+     .texto_sobre_nos {
+        font-size: 13px;
+        margin-left: 15px;
+        margin-right: 15px;
+     }
+
+     /*Responsividade Localização*/
+     .localizacao iframe {
+        width:400px ;
+       height:350px ;
+     }
+
+
+     /*Responsividade Nossas Marcas*/
+
+     .nossas_marcas_sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+     }
+     .nossas_marcas_lista{
+        margin-left: -45px;
+     }
+     .nossas_marcas_sobre img {
+        width: 50%;
+     }
+
+      /*Responsividade Video*/ 
+     .video iframe {
+       width:400px ;
+       height:350px ;
+        
+     }
+
+     /*Responsividade Footer */
+     footer  {
+         background-size: contain;
+     }
+     .rodape_contato{
+        margin-top: 60px;
+     }
+
+}
+
+
+@media (min-width:768px) and (max-width: 1023px) {
+
+   
+
+    /*Responsividade Sobre nos */
+     .sobre_nos {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin-left: 0;
+        
+     }
+     .img_sobre_nos{
+        width: 90%;
+        margin-right: 0;
+     }
+     .texto_sobre_nos {
+        font-size: 16px;
+        margin-left: 15px;
+        margin-right: 15px;
+     }
+
+     /*Responsividade Localização*/
+     .localizacao iframe {
+        width:700px ;
+       height:600px ;
+     }
+
+
+     /*Responsividade Nossas Marcas*/
+
+     .nossas_marcas_sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+     }
+     .nossas_marcas_lista{
+        margin-left: -45px;
+        font-size: 16px;
+     }
+     .nossas_marcas_sobre img {
+        width: 50%;
+     }
+
+      /*Responsividade Video*/ 
+     .video iframe {
+       width:700px ;
+       height:400px ;
+        
+     }
+
+     /*Responsividade Footer */
+    
+     .rodape_contato{
+        margin-top: 100px;
+     }
+
+}
+
+
+
+@media (min-width:1024px) and (max-width: 1439px) {
+
+        /*Responsividade Localização*/
+     .localizacao iframe {
+        width:980px ;
+       height:600px ;
+     }
+
+     
+
+     /*Responsividade Nossas Marcas*/
+
+     .nossas_marcas_sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+     }
+     .nossas_marcas_lista{
+        margin-left: -45px;
+        font-size: 16px;
+     }
+     .nossas_marcas_sobre img {
+        width: 50%;
+     }
+
+
+     /*Responsividade Footer */
+    
+     .rodape_contato{
+        margin-top: 100px;
+     }
+
+}
+
+
 
 
 

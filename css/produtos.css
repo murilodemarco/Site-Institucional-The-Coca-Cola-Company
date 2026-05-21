@@ -64,3 +64,17 @@
     font-size: 20px;
     margin-bottom: 40px;
 }
+
+
+@media screen and (max-width: 375px){
+    .data{
+        font-size: 16px;
+    }
+    .card{
+        width: 290px; 
+    }
+    .card:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+}
