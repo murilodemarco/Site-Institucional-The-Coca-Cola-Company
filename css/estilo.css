@@ -1,0 +1,244 @@
+/*Estilização padrão da página*/
+body{
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(0deg,  #b13636 , #000000) ;
+    /*background: linear-gradient(#b13636 , #FFF); -- Forma de colocar o gradient na tela*/
+    color: #fff;
+    
+}
+/*Estilização do HEADER da página*/
+header{
+    
+    padding: 30px 0 50px 0;
+    
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 50px;
+}
+nav{
+    position: absolute;
+    top: 20%;
+    font-size: 25px;
+    right: 2%;
+    font-family: cursive; /*Deixa o texto como se fosse escrito em forma "cursiva"*/
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+.div_header{
+    position: relative;
+}
+nav li{
+    display: inline; /*Coloca os itens da lista em horizontal e tira os marcadores*/
+    margin-right: 20px;
+
+}
+/*Estilazação do Banner*/
+.banner{
+    width: 100%;
+    height: 50%;
+    object-fit: cover; /*Corta a imagem para manter as dimenções*/
+    object-position: center;
+}
+
+
+/*Estilização da sessão Sobre nos*/
+.sobre_nos{
+    width: 60%;
+    margin-left: 18%;
+    
+}
+.img_sobre_nos{
+    float: left; /*Voando a esquerda da página*/
+    margin-right: 15px;
+}
+.titulo_sobre_nos{
+    clear: left; /*limpa a esquerda do elemento*/
+    text-align: center;
+    margin-top: 80px;
+}
+.texto_sobre_nos{
+    text-align: justify;
+    font-size: 16px;
+    
+}
+
+/*Estilização localização*/
+.localizacao{
+    text-align: center;
+}
+
+.titulo_localizacao{
+    
+    margin-top: 80px;
+    
+}
+.localizacao_desc{
+    
+    font-size: 16px;
+}
+
+/*Estilização Nossas Marcas */
+
+.nossas_marcas{
+    text-align: center;
+}
+
+.nossas_marcas_titulo{    
+    margin-top: 80px;
+}
+
+.nossas_marcas_sobre{
+    display: flex;
+    margin-left: 20%;
+    
+}
+
+.nossas_marcas_sobre img{
+    width: 35%;
+   
+}
+
+.nossas_marcas_lista{
+    list-style:none;
+    text-transform: uppercase;
+    margin-left: 150px;
+
+}
+.nossas_marcas_lista li{
+    margin-top: 20px;
+
+}
+
+.video{
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+/*Estilização footer*/
+
+
+footer{
+    background-image: url('../img/footer_back.png');
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    /* background-size: cover; /* A imagem cobre a área */
+    background-position: center; /* Centraliza */
+    background-repeat: no-repeat; /* Não repete */
+    background-color: black;
+    margin-top: 25px;
+}
+
+.logo_rodape{
+    width: 10%;
+     
+}
+
+.icones{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.icone_insta{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.rodape_contato{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+    
+}
+.rodape_contato a {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    align-items: center;
+        
+}
+
+
+
+@media screen and (max-width: 375px) {
+
+    /*Responsividade Header */
+     nav {
+        font-size: 12px;
+        
+     }       
+     .logo {
+        width: 80px;
+        height: 80px;
+        margin-left: 10px;
+     }
+
+    /*Responsividade Sobre nos */
+     .sobre_nos {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin-left: 0;
+        
+     }
+     .img_sobre_nos{
+        width: 90%;
+        margin-right: 0;
+     }
+     .texto_sobre_nos {
+        font-size: 13px;
+        margin-left: 15px;
+        margin-right: 15px;
+     }
+
+     /*Responsividade Localização*/
+     .localizacao iframe {
+        width:325px ;
+       height:250px ;
+     }
+
+
+     /*Responsividade Nossas Marcas*/
+
+     .nossas_marcas_sobre {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+     }
+     .nossas_marcas_lista{
+        margin-left: -45px;
+     }
+
+      /*Responsividade Video*/ 
+     .video iframe {
+       width:325px ;
+       height:250px ;
+        
+     }
+
+     /*Responsividade Footer */
+     footer  {
+         background-size: contain;
+     }
+     .rodape_contato{
+        margin-top: 60px;
+     }
+
+}
+
+
+
+
+

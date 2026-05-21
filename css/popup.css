@@ -1,0 +1,33 @@
+body{
+    background-color: #380707f3;
+    margin: auto;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider-img {
+    width: 500px ;
+    height: 500px;
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: #FFFFFF;
+    padding: 20px;
+    border-radius: 50px;
+    border: none
+
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
