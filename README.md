@@ -116,7 +116,7 @@ Você precisa apenas de:
 
 ```bash
 # Clone o repositório
- git clone https://github.com/murilodemarco/Site-Institucional-Coca-Cola.git
+ git clone https://github.com/murilodemarco/Site-Institucional-The-Coca-Cola-Company
 
 # Acesse a pasta do projeto
  cd Site-Institucional-Coca-Cola
