@@ -1,4 +1,4 @@
-# 🥤 Site Institucional Coca-Cola
+# 🥤 Site Institucional The Coca-Cola Company
 
 <p align="center">
   <img src="./img/footer_back.png" alt="Preview do Projeto Coca-Cola" width="700">
