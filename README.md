@@ -1,7 +1,7 @@
 # 🥤 Site Institucional Coca-Cola
 
 <p align="center">
-  <img src="./img/Produtos/coca-cola.png" alt="Preview do Projeto Coca-Cola" width="700">
+  <img src="./img/foote_black.png" alt="Preview do Projeto Coca-Cola" width="700">
 </p>
 
 <p align="center">
