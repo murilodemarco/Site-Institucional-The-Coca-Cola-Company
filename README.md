@@ -12,7 +12,7 @@
 
 ## 🚀 Sobre o Projeto
 
-O **Site Institucional Coca-Cola** é um projeto desenvolvido para praticar conceitos essenciais de desenvolvimento Front-End através da criação de uma landing page moderna inspirada na marca Coca‑Cola.
+O **Site Institucional The Coca-Cola Company** é um projeto desenvolvido para praticar conceitos essenciais de desenvolvimento Front-End através da criação de uma landing page moderna inspirada na marca Coca‑Cola.
 
 A aplicação apresenta uma interface visualmente atrativa, organizada e responsiva, simulando um site institucional de apresentação da marca e seus produtos.
 
