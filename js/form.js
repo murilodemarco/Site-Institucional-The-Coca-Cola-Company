@@ -1,12 +1,12 @@
 // Obtem o botão de formulario
 
-var botaoEnviar = document.querySelector("enviar");
+var botaoEnviar = document.querySelector("#enviar");
 
 botaoEnviar.addEventListener("click", function(event){
     event.preventDefault();
 
     //Captura de Formulario
-    var form = document.querySelector("#afrmContato");
+    var form = document.querySelector("#frmContato");
 
     //Verifica se o usuario preencheu e-mail ou telefone
     if(form.email.value=='' && form.telefone.value==''){
